@@ -26,7 +26,7 @@ export default {
     {
       id: "second-p-about",
       content:
-        " Being in the mobile phone industry for so long made me recognize how fast the world is changing along with the technology as well. It was during the second year of the pandemic that it really made an impact on how I should move along with the technology to future proof myself as well. I am very passionate about electronics and how it functions. That passion also comes with the mindset of always being a student and absorbing whatever new information that sets the world standard. I am currently enrolled at the University of Texas at Austin for a boot camp course for Full Stack Developing. ",
+        " Being in the mobile phone industry for so long made me recognize how fast the world is changing along with the technology. It was during the second year of the pandemic that it really made an impact on how I should move along with the technology to future proof myself. I am very passionate about electronics and how it functions. That passion also comes with the mindset of always being a student and absorbing whatever new information that sets the world standard. I am currently enrolled at the University of Texas at Austin for a boot camp course for Full Stack Developing. ",
     },
   ],
   resume_summary:
