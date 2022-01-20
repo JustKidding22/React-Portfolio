@@ -15,13 +15,13 @@ const Header = () => {
   return (
     <div className="container">
       <div className="topnav" id="myTopnav">
-        <a
+        <Link
           style={{ marginTop: "1.5rem", marginLeft: "1rem" }}
           class="navbar-brand"
-          href="/"
+          to="/"
         >
           {data.full_name}
-        </a>
+        </Link>
         <div className="navbar navbar-b justify-content-end">
           <Link to="/about">About</Link>
           <Link to="/portfolio">Portfolio</Link>
