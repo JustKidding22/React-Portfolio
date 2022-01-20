@@ -1,5 +1,6 @@
 import React from "react";
 import data from "../data";
+import { Link } from "react-router-dom";
 
 const Header = () => {
   let toggle = () => {
@@ -22,10 +23,10 @@ const Header = () => {
           {data.full_name}
         </a>
         <div className="navbar navbar-b justify-content-end">
-          <a href="/about">About</a>
-          <a href="/portfolio">Portfolio</a>
-          <a href="/contact">Contact</a>
-          <a href="/resume">Resume</a>
+          <Link to="/about">About</Link>
+          <Link to="/portfolio">Portfolio</Link>
+          <Link to="/contact">Contact</Link>
+          <Link to="/resume">Resume</Link>
           <button
             className="navbar-toggler collapsed icon"
             type="button"
